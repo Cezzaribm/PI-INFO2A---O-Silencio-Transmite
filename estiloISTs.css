@@ -1,17 +1,31 @@
 p {
     color: whitesmoke;
     font-size: large;
+    line-height: 1.5;
    
 }
 
 body {
-    background-color: black;
-    line-height: 1.5;
+    
+    background: #09000a;
+    color: whitesmoke;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    margin: 0;
 
 }
 
+  h1 {
+    color: deeppink;
+    font-size: 40px;
+    
+
+  }
+
 h2 {
-    color:deeppink;
+    color:wheat;
+    -webkit-text-stroke: 1.0px black;
+    
 }
 
 h3 {
@@ -26,10 +40,21 @@ h1 {
     rgb(0, 255, 221);
 }
 
+
+  li {
+    color:whitesmoke;
+    line-height: 1.5;
+  }
+  
+
+   dl {
+    color: white;
+ }
+
 a {
     display: inline-block;
     padding: 5px 6px;
-    background-color: #41022d;
+    background-color: #ba9cc5;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
@@ -39,10 +64,15 @@ a {
 }
 
 header {
-    background-color: #41022d;
-    padding: 20px;
+    
+    padding: 40px;
     text-align: center;
     border-bottom: 3px solid deeppink;
+    background-image: url('nav2.png');
+    background-size: cover; /* Faz a imagem cobrir todo o espaço */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    height: 300px;
 }
 
 header h1 {
@@ -68,3 +98,16 @@ footer p {
     margin: 0;
     font-size: 16px;
 }
+
+
+ ul {
+    background-color:rgb(48, 1, 14); /* Cor de fundo da caixinha */
+    border: 2px solid #ccc; /* Cor e espessura da borda */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 20px; /* Espaço entre o texto e a borda */
+    width: 300px; /* Largura fixa da caixinha */
+    
+    
+    
+ }
+  
