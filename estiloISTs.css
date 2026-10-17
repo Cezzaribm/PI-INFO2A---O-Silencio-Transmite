@@ -37,7 +37,7 @@ h4 {
 }
 
 h1 {
-    rgb(0, 255, 221);
+    color: rgb(0, 255, 221);
 }
 
 
@@ -73,16 +73,30 @@ header {
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     height: 300px;
+    opacity: 0.7; 
 }
+
+
 
 header h1 {
     color: rgb(0, 255, 221);
     font-size: 40px;
     margin-bottom: 15px;
+    text-shadow: 0 0 8px;
+    -webkit-text-stroke: 1.5px black;
+    
+}
+
+header h2 {
+    color:wheat;
+    text-shadow: 0 0 8px;
+     -webkit-text-stroke: 1.5px black;
+     font-size: 30px;
 }
 
 nav a {
     margin: 5px;
+    
 }
 
 footer {
@@ -111,3 +125,4 @@ footer p {
     
  }
   
+
